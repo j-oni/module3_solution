@@ -46,3 +46,10 @@ body {
 .navbar-nav {
 	margin: 0 -15px;
 }
+
+@media (min-width: 768px) {
+	.navbar-default .navbar-collapse {
+		border: none;
+		background: inherit;
+	}
+}
